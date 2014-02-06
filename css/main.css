@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.pattern-div {
+  display: inline-block;
+  height: 48px;
+  margin: 1px;
+  white-space: nowrap;
+  width: 12px;
+}
+
+.pattern-container-outer {
+  overflow: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.pattern-off {
+  background-color: #ff9c00;
+}
+.pattern-on {
+  background-color: #098df2;
+}
+
+.start {
+  border: 4px solid #b63f04;
+}
+
+
+
+
+
+
+
+
+
+
+
+

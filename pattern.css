@@ -1,0 +1,18 @@
+.pattern-div {
+  display: inline-block;
+  height: 48px;
+  margin: 1px;
+  white-space: nowrap;
+  width: 12px;
+}
+
+.container {
+  white-space: nowrap;
+}
+
+.on {
+  background-color: #ff9c00;
+}
+.off {
+  background-color: #098df2;
+}
