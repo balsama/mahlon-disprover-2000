@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Mahlon Disprover 2000 | trexx.xxx</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -49,7 +49,7 @@
       <div class="container">
         <h1>Mahlon Disprover 2000</h1>
         <h3>One, One Two, One Two Three, One Two...</h3>
-        <p>Mahlon says that if two people are play the above rythm and one person sneaks an extra beat in, they will eventually "come around". Hah!</p>
+        <p>Mahlon says that if two people play the above rythm and one person sneaks an extra beat in, they will eventually "come around". Hah!</p>
         <p>Use the form below to test his theory. Red borders signify the start of each pattern iteration. Use your mouse or touchscreen to scroll.</p>
       </div>
     </div>
@@ -88,7 +88,7 @@
             ?>
           </div>
           <?php else : ?>
-          <p>Select your patterns and click on the button to generate your patterns.</p>
+          <p>Select your patterns and click on the button to generate.</p>
           <?php endif; ?>
        </div>
       </div>
