@@ -56,7 +56,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-sm-4">
           <h2>Select your output:</h2>
           <form method="post" action="#result">
             <div class="form-group">
@@ -78,7 +78,7 @@
             <button type="submit" class="btn btn-primary">Show me the Patterns!</button>
           </form>
         </div>
-        <div class="col-lg-8">
+        <div class="col-sm-8">
           <h2 name="result" id="result">Result</h2>
           <?php if (isset($_POST['pattern-1'])) : ?>
           <div class="pattern-container-outer">
@@ -90,8 +90,8 @@
           <?php else : ?>
           <p>Select your patterns and click on the button to generate.</p>
           <?php endif; ?>
-       </div>
-      </div>
+        </div>
+      </div> <!-- /.row -->
       <hr />
       <div class="well">
         <h2>tl;dr</h2>
@@ -99,29 +99,29 @@
           <li>Adding a single beat just causes the two patterns to be out of phase. They will never synch up.</li>
           <li>Adding an extra beat to each iteration will result in the patterns synching every 8/7 iterations (8 iterations of the normal pattern = 7 iterations of the pattern with one extra beat added.</li>
         </ul>
-      </div>
+      </div> <!-- /.well -->
 
       <hr>
 
       <footer>
         <p></p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    </div> <!-- /.container -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-29982014-3', 't-rexx.xxx');
-          ga('send', 'pageview');
-
-        </script>
-    </body>
+      ga('create', 'UA-29982014-3', 't-rexx.xxx');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
