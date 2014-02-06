@@ -57,12 +57,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <h2>Select your output</h2>
-          <form method="post" action="">
+          <h2>Select your output:</h2>
+          <form method="post" action="#result">
             <div class="form-group">
               <label for="pattern-1">Pattern 1</label>
               <select name="pattern-1" id="pattern-1">
-                <option value="1">One, One Two, One Two Three, One Two (normal)</option>
+                <option value="1">|, ||, |||, || - (normal)</option>
                 <option value="2">Add one extra beat</option>
                 <option value="3">Add one extra beat every time</option>
               </select>
@@ -70,7 +70,7 @@
             <div class="form-group">
               <label for="pattern-2">Pattern 2</label>
               <select name="pattern-2" id="pattern-2">
-                <option value="1">One, One Two, One Two Three, One Two (normal)</option>
+                <option value="1">|, ||, |||, || - (normal)</option>
                 <option value="2">Add one extra beat</option>
                 <option value="3">Add one extra beat every time</option>
               </select>
@@ -79,7 +79,7 @@
           </form>
         </div>
         <div class="col-lg-8">
-          <h2>Result</h2>
+          <h2 name="result" id="result">Result</h2>
           <?php if (isset($_POST['pattern-1'])) : ?>
           <div class="pattern-container-outer">
             <?php
