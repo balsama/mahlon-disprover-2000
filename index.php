@@ -87,8 +87,9 @@
             echo generate_pattern($_POST['pattern-2']);
             ?>
           </div>
-          <button type="button" class="btn btn-warning" id="pause-scroll">Pause Scrolling</button>
           <button type="button" class="btn btn-success" id="start-scroll">Start Scrolling</button>
+          <button type="button" class="btn btn-danger hidden-temp" id="pause-scroll">Pause Scrolling</button>
+          <button type="button" class="btn btn-warning hidden-temp" id="unpause-scroll">Unpause Scrolling</button>
           <?php else : ?>
           <p>Select your patterns and click on the button to generate.</p>
           <?php endif; ?>
